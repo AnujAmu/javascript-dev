@@ -26,7 +26,7 @@ class Restaurent extends BaseComponent {
             parsedData.push({
                 "Kushi Tsuru": request[index]["Kushi Tsuru"],
                 "Mon-Sun 11:30 am - 9 pm": request[index]["Mon-Sun 11:30 am - 9 pm"],
-                "isClosed": "closed"
+                "isClosed": "Closed"
                 
             })
         }
@@ -53,7 +53,7 @@ class Restaurent extends BaseComponent {
         this.state.itemArray.map((item, index)=>{
             filteredRestaurents.map((restaurent)=>{
             if(item['Kushi Tsuru']===restaurent.name){
-                this.state.itemArray[index].isClosed="open"
+                this.state.itemArray[index].isClosed="Open"
             }
             })
         })
