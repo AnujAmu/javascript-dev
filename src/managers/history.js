@@ -1,7 +1,3 @@
-/**
- * Created by Ayush Kulshrestha on 18/09/2019.
- */
-
 import { createBrowserHistory } from 'history';
 
 /**
