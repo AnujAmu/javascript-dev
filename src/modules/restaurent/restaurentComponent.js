@@ -7,10 +7,10 @@ import moment from 'moment'
 
 export default function GroupList(props) {
     return (
-        <div style={{ marginLeft: '50px', marginTop: '30px' }}>
-            <h5 style={{ marginLeft: '50px' }}>Restaurent List</h5>
+        <div className="m-l-50 m-t-30">
+            <h5 className="m-l-50">Restaurent List</h5>
             <DatePicker
-                className={'br-3 b-1-ccc w-140  color-dark-grey height-36 outline-none bg-white p-l-sm fs-16 date_picker'}
+                className="m-l-50"
                 selected={props.state.startTime}
                 onChange={date => {
                     props.applyFilter(moment(date).valueOf(), 'startTime');
@@ -19,21 +19,19 @@ export default function GroupList(props) {
                 dateFormat="dd MMM h:mma"
             />
 
-            <input className="h-30 outline-none input-border "
-                onChange={(event) => props.onChangeEvent(event)} style={{ marginLeft: '50px' }} />
+            <input className="h-32 w-225 fs-14 outline-none input-border "
+                onChange={(event) => props.onChangeEvent(event)} className="m-l-95" placeholder="Search for a restaurent" />
             <Grid container spacing={2}>
                 {props.state.restaurentArray && props.state.restaurentArray.length ? props.state.restaurentArray.map(cell =>
                     <Grid>
-                        {/* className={"sign-in-btn  w-100-per m-t-7per border-0 background-color-gradient " +
-                            (props.state.showLoader ? "opacity-3 cursor-not-allowed" : "cursor-pointer")} */}
                         <Paper variant="outlined" className={"paper-box " + ((cell.isClosed) === "Closed" ? " bg-pink" : "bg-blue")}>
                             <div className={"status-ribbon " + ((cell.isClosed) === "Closed" ? " bg-closed" : "bg-open")}>{cell.isClosed}</div>
 
-                            <h5 style={{ textAlign: 'center', paddingTop: '14px' }}>{cell['Kushi Tsuru']}</h5>
+                            <h5 className="text-align-center p-t-14">{cell['Kushi Tsuru']}</h5>
 
-                            <p style={{ marginLeft: '9px', marginTop: '5px' }}>
+                            <div className="m-l-9 m-t-5">
                                 {cell['Mon-Sun 11:30 am - 9 pm'].split('/').map(time =>
-                                    <li>{time}</li>)}</p>
+                                    <li>{time}</li>)}</div>
                         </Paper>
 
                     </Grid>) : ""}

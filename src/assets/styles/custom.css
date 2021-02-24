@@ -206,6 +206,32 @@ input:focus {
     background-color: #eaf6fa !important;
 }
 
+
+.m-l-9{
+    margin-left: 9px;
+}
+.m-t-5{
+    margin-top: 5px;
+}
+
+.m-l-50{
+    margin-left: 50px;
+}
+
+.m-l-95{
+    margin-left: 95px;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.p-t-14{
+    padding-top: 14px;
+}
+.m-t-30{
+    margin-top: 30px;
+}
 .bg-open {
     background-color: green !important;
 }
@@ -230,12 +256,20 @@ input:focus {
     width: 450px;
 }
 
+
+.w-225 {
+    width: 225px;
+}
+
+.fs-14{
+    font-size: 14px;
+}
 .w-250 {
     width: 250px;
 }
 
-.h-30 {
-    height: 30px;
+.h-32 {
+    height: 32px;
 }
 
 .z-index-100 {
