@@ -25,7 +25,7 @@ class Restaurent extends BaseComponent {
                 return response.json()
             })
             .then((responseData) => {
-                let data = this.parseResData(responseData)
+                let data = this.parseRestaurentData(responseData)
                 this.setState({ restaurentArray: data, itemArray: data });
             })
             .catch((error) => {
@@ -33,7 +33,8 @@ class Restaurent extends BaseComponent {
             })
     }
 
-    parseResData = (request) => {
+    // Function for adding isClosed field in the data fetched from api.
+    parseRestaurentData = (request) => {
         let parsedData = []
         for (let index = 0; index < request.length; index++) {
             parsedData.push({
@@ -80,7 +81,8 @@ class Restaurent extends BaseComponent {
         this.setState({ restaurentArray: this.state.itemArray })
     }
 
-    onChangeEvent = (event) => {
+    // Function for searching restaurents by their name.
+    onSearchEvent = (event) => {
         let value = event.target.value.toLowerCase();
         if (value && value.length) {
             let filterList = this.state.restaurentArray && this.state.restaurentArray.filter(userObject => {
@@ -104,7 +106,7 @@ class Restaurent extends BaseComponent {
     render() {
         return (
             <RestaurentComponent state={this.state}
-                onChangeEvent={this.onChangeEvent}
+                onSearchEvent={this.onSearchEvent}
                 applyFilter={this.applyFilter}
             />
         );
