@@ -1,8 +1,3 @@
-/**
- * Created by Ayush Kulshrestha on 18/09/2019.
- */
-
-
 export const httpConstants = {
     METHOD_TYPE: {
         POST: 'POST',
