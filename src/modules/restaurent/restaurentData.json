@@ -13,6 +13,32 @@
         "isClosed": false
     },
     {
+        "name": "The Stinking Rose",
+        "day": {
+            "mon": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "tue": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "wed": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "thu": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "fri": { "startTime": "11:30 AM", "endTime": "23:00 PM"},
+            "sat": { "startTime": "11:30 AM", "endTime": "23:00 PM"},
+            "sun": { "startTime": "11:30 AM", "endTime": "22:00 PM"}
+        },
+        "isClosed": false
+    },
+    {
+        "name": "McCormick & Kuleto's",
+        "day": {
+            "mon": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "tue": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "wed": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "thu": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "fri": { "startTime": "11:30 AM", "endTime": "23:00 PM"},
+            "sat": { "startTime": "11:30 AM", "endTime": "23:00 PM"},
+            "sun": { "startTime": "11:30 AM", "endTime": "22:00 PM"}
+        },
+        "isClosed": false
+    },
+    {
         "name": "Mifune Restaurant",
         "day": {
             "mon": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
@@ -24,6 +50,586 @@
             "sun": { "startTime": "11:00 AM", "endTime": "22:00 PM"}
         },
         "isClosed": false
-
+    },
+        {
+        "name": "The Cheesecake Factory",
+        "day": {
+            "mon": { "startTime": "11:30 AM", "endTime": "23:00 PM"},
+            "tue": { "startTime": "11:30 AM", "endTime": "23:00 PM"},
+            "wed": { "startTime": "11:30 AM", "endTime": "23:00 PM"},
+            "thu": { "startTime": "11:30 AM", "endTime": "23:00 PM"},
+            "fri": { "startTime": "11:00 AM", "endTime": "00:30 AM"},
+            "sat": { "startTime": "11:00 AM", "endTime": "00:30 AM"},
+            "sun": { "startTime": "10:00 AM", "endTime": "23:00 PM"}
+        },
+        "isClosed": false
+    },    {
+        "name": "New Delhi Indian Restaurant",
+        "day": {
+            "mon": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "tue": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "wed": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "thu": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "fri": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "sat": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "sun": { "startTime": "17:30 PM", "endTime": "22:00 PM"}
+        },
+        "isClosed": false
+    },    {
+        "name": "Iroha Restaurant",
+        "day": {
+            "mon": { "startTime": "11:30 AM", "endTime": "21:30 PM"},
+            "tue": { "startTime": "11:30 AM", "endTime": "21:30 PM"},
+            "wed": { "startTime": "11:30 AM", "endTime": "21:30 PM"},
+            "thu": { "startTime": "11:30 AM", "endTime": "21:30 PM"},
+            "fri": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "sat": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "sun": { "startTime": "11:30 AM", "endTime": "21:30 PM"}
+        },
+        "isClosed": false
+    },    {
+        "name": "Rose Pistola",
+        "day": {
+            "mon": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "tue": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "wed": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "thu": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "fri": { "startTime": "11:30 AM", "endTime": "23:00 PM"},
+            "sat": { "startTime": "11:30 AM", "endTime": "23:00 PM"},
+            "sun": { "startTime": "11:30 AM", "endTime": "23:00 PM"}
+        },
+        "isClosed": false
+    },    {
+        "name": "Alioto's Restaurant",
+        "day": {
+            "mon": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "tue": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "wed": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "thu": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "fri": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "sat": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "sun": { "startTime": "11:00 AM", "endTime": "23:00 PM"}
+        },
+        "isClosed": false
+    },    {
+        "name": "Canton Seafood & Dim Sum Restaurant",
+        "day": {
+            "mon": { "startTime": "10:30 AM", "endTime": "21:30 PM"},
+            "tue": { "startTime": "10:30 AM", "endTime": "21:30 PM"},
+            "wed": { "startTime": "10:30 AM", "endTime": "21:30 PM"},
+            "thu": { "startTime": "10:30 AM", "endTime": "21:30 PM"},
+            "fri": { "startTime": "10:30 AM", "endTime": "21:30 PM"},
+            "sat": { "startTime": "10:00 AM", "endTime": "21:30 PM"},
+            "sun": { "startTime": "10:00 AM", "endTime": "21:30 PM"}
+        },
+        "isClosed": false
+    },    {
+        "name": "All Season Restaurant",
+        "day": {
+            "mon": { "startTime": "10:00 AM", "endTime": "21:30 PM"},
+            "tue": { "startTime": "10:00 AM", "endTime": "21:30 PM"},
+            "wed": { "startTime": "10:00 AM", "endTime": "21:30 PM"},
+            "thu": { "startTime": "10:00 AM", "endTime": "21:30 PM"},
+            "fri": { "startTime": "10:00 AM", "endTime": "21:30 PM"},
+            "sat": { "startTime": "09:30 AM", "endTime": "21:30 PM"},
+            "sun": { "startTime": "09:30 AM", "endTime": "21:30 PM"}
+        },
+        "isClosed": false
+    },    {
+        "name": "Bombay Indian Restaurant",
+        "day": {
+            "mon": { "startTime": "11:30 AM", "endTime": "22:30 PM"},
+            "tue": { "startTime": "11:30 AM", "endTime": "22:30 PM"},
+            "wed": { "startTime": "11:30 AM", "endTime": "22:30 PM"},
+            "thu": { "startTime": "11:30 AM", "endTime": "22:30 PM"},
+            "fri": { "startTime": "11:30 AM", "endTime": "22:30 PM"},
+            "sat": { "startTime": "11:30 AM", "endTime": "22:30 PM"},
+            "sun": { "startTime": "11:30 AM", "endTime": "22:30 PM"}
+        },
+        "isClosed": false
+    },    {
+        "name": "Sam's Grill & Seafood Restaurant",
+        "day": {
+            "mon": { "startTime": "11:00 AM", "endTime": "21:00 PM"},
+            "tue": { "startTime": "11:00 AM", "endTime": "21:00 PM"},
+            "wed": { "startTime": "11:00 AM", "endTime": "21:00 PM"},
+            "thu": { "startTime": "11:00 AM", "endTime": "21:00 PM"},
+            "fri": { "startTime": "11:00 AM", "endTime": "21:00 PM"},
+            "sat": { "startTime": "17:00 PM", "endTime": "21:00 PM"}
+            ,"sun": { "startTime": "11:00 AM", "endTime": "21:00 PM"}
+        },
+        "isClosed": false
+    },    {
+        "name": "2G Japanese Brasserie",
+        "day": {
+            "mon": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "tue": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "wed": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "thu": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "fri": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "sat": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "sun": { "startTime": "11:00 AM", "endTime": "22:00 PM"}
+        },
+        "isClosed": false
+    },    {
+        "name": "Restaurant Lulu",
+        "day": {
+            "mon": { "startTime": "11:30 AM", "endTime": "21:00 PM"},
+            "tue": { "startTime": "11:30 AM", "endTime": "21:00 PM"},
+            "wed": { "startTime": "11:30 AM", "endTime": "21:00 PM"},
+            "thu": { "startTime": "11:30 AM", "endTime": "21:00 PM"},
+            "fri": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "sat": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "sun": { "startTime": "11:30 AM", "endTime": "21:00 PM"}
+        },
+        "isClosed": false
+    },    {
+        "name": "Sudachi",
+        "day": {
+            "mon": { "startTime": "17:00 PM", "endTime": "00:30 AM"},
+            "tue": { "startTime": "17:00 PM", "endTime": "00:30 AM"},
+            "wed": { "startTime": "17:00 PM", "endTime": "00:30 AM"},
+            "thu": { "startTime": "17:00 PM", "endTime": "01:30 AM"},
+            "fri": { "startTime": "17:00 PM", "endTime": "01:30 AM"},
+            "sat": { "startTime": "15:00 PM", "endTime": "01:30 AM"},
+            "sun": { "startTime": "15:00 PM", "endTime": "23:30 PM"}
+        },
+        "isClosed": false
+    },    {
+        "name": "Hanuri",
+        "day": {
+            "mon": { "startTime": "11:00 AM", "endTime": "00:00 AM"},
+            "tue": { "startTime": "11:00 AM", "endTime": "00:00 AM"},
+            "wed": { "startTime": "11:00 AM", "endTime": "00:00 AM"},
+            "thu": { "startTime": "11:00 AM", "endTime": "00:00 AM"},
+            "fri": { "startTime": "11:00 AM", "endTime": "00:00 AM"},
+            "sat": { "startTime": "11:00 AM", "endTime": "00:00 AM"},
+            "sun": { "startTime": "11:00 AM", "endTime": "00:00 AM"}
+        },
+        "isClosed": false
+    },    {
+        "name": "Herbivore",
+        "day": {
+            "mon": { "startTime": "09:00 AM", "endTime": "22:00 PM"},
+            "tue": { "startTime": "09:00 AM", "endTime": "22:00 PM"},
+            "wed": { "startTime": "09:00 AM", "endTime": "22:00 PM"},
+            "thu": { "startTime": "09:00 AM", "endTime": "22:00 PM"},
+            "fri": { "startTime": "09:00 AM", "endTime": "23:00 PM"},
+            "sat": { "startTime": "09:00 AM", "endTime": "23:00 PM"},
+            "sun": { "startTime": "09:00 AM", "endTime": "22:00 PM"}
+        },
+        "isClosed": false
+    },    {
+        "name": "Penang Garden",
+        "day": {
+            "mon": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "tue": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "wed": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "thu": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "fri": { "startTime": "10:00 AM", "endTime": "22:30 PM"},
+            "sat": { "startTime": "10:00 AM", "endTime": "22:30 PM"},
+            "sun": { "startTime": "11:00 AM", "endTime": "23:00 PM"}
+        },
+        "isClosed": false
+    },    {
+        "name": "John's Grill",
+        "day": {
+            "mon": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "tue": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "wed": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "thu": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "fri": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "sat": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "sun": { "startTime": "12:00 PM", "endTime": "22:00 PM"}
+        },
+        "isClosed": false
+    },    {
+        "name": "Quan Bac",
+        "day": {
+            "mon": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "tue": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "wed": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "thu": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "fri": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "sat": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "sun": { "startTime": "11:00 AM", "endTime": "22:00 PM"}
+        },
+        "isClosed": false
+    },    {
+        "name": "Bamboo Restaurant",
+        "day": {
+            "mon": { "startTime": "11:00 AM", "endTime": "00:00 AM"},
+            "tue": { "startTime": "11:00 AM", "endTime": "00:00 AM"},
+            "wed": { "startTime": "11:00 AM", "endTime": "00:00 AM"},
+            "thu": { "startTime": "11:00 AM", "endTime": "00:00 AM"},
+            "fri": { "startTime": "11:00 AM", "endTime": "00:30 AM"},
+            "sat": { "startTime": "11:00 AM", "endTime": "00:30 AM"},
+            "sun": { "startTime": "12:00 PM", "endTime": "00:00 AM"}
+        },
+        "isClosed": false
+    },    {
+        "name": "Burger Bar",
+        "day": {
+            "mon": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "tue": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "wed": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "thu": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "fri": { "startTime": "11:00 AM", "endTime": "00:00 AM"},
+            "sat": { "startTime": "11:00 AM", "endTime": "00:00 AM"},
+            "sun": { "startTime": "11:00 AM", "endTime": "22:00 PM"}
+        },
+        "isClosed": false
+    },
+    {
+        "name": "Blu Restaurant",
+        "day": {
+            "mon": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "tue": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "wed": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "thu": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "fri": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "sat": { "startTime": "07:00 AM", "endTime": "15:00 PM"},
+            "sun": { "startTime": "07:00 AM", "endTime": "15:00 PM"}
+        },
+        "isClosed": false
+    },
+    {
+        "name": "Naan 'N' Curry",
+        "day": {
+            "mon": { "startTime": "11:00 AM", "endTime": "04:00 AM"},
+            "tue": { "startTime": "11:00 AM", "endTime": "04:00 AM"},
+            "wed": { "startTime": "11:00 AM", "endTime": "04:00 AM"},
+            "thu": { "startTime": "11:00 AM", "endTime": "04:00 AM"},
+            "fri": { "startTime": "11:00 AM", "endTime": "04:00 AM"},
+            "sat": { "startTime": "11:00 AM", "endTime": "04:00 AM"},
+            "sun": { "startTime": "11:00 AM", "endTime": "04:00 AM"}
+        },
+        "isClosed": false
+    },
+    {
+        "name": "Shanghai China Restaurant",
+        "day": {
+            "mon": { "startTime": "11:00 AM", "endTime": "21:30 PM"},
+            "tue": { "startTime": "11:00 AM", "endTime": "21:30 PM"},
+            "wed": { "startTime": "11:00 AM", "endTime": "21:30 PM"},
+            "thu": { "startTime": "11:00 AM", "endTime": "21:30 PM"},
+            "fri": { "startTime": "11:00 AM", "endTime": "21:30 PM"},
+            "sat": { "startTime": "11:00 AM", "endTime": "21:30 PM"},
+            "sun": { "startTime": "11:00 AM", "endTime": "21:30 PM"}
+        },
+        "isClosed": false
+    },
+    {
+        "name": "Tres",
+        "day": {
+            "mon": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "tue": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "wed": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "thu": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "fri": { "startTime": "11:30 AM", "endTime": "23:00 PM"},
+            "sat": { "startTime": "11:30 AM", "endTime": "23:00 PM"},
+            "sun": { "startTime": "11:30 AM", "endTime": "22:00 PM"}
+        },
+        "isClosed": false
+    },
+    {
+        "name": "Isobune Sushi",
+        "day": {
+            "mon": { "startTime": "11:30 AM", "endTime": "21:30 PM"},
+            "tue": { "startTime": "11:30 AM", "endTime": "21:30 PM"},
+            "wed": { "startTime": "11:30 AM", "endTime": "21:30 PM"},
+            "thu": { "startTime": "11:30 AM", "endTime": "21:30 PM"},
+            "fri": { "startTime": "11:30 AM", "endTime": "21:30 PM"},
+            "sat": { "startTime": "11:30 AM", "endTime": "21:30 PM"},
+            "sun": { "startTime": "11:30 AM", "endTime": "21:30 PM"}
+        },
+        "isClosed": false
+    },
+    {
+        "name": "Viva Pizza Restaurant",
+        "day": {
+            "mon": { "startTime": "11:00 AM", "endTime": "00:00 AM"},
+            "tue": { "startTime": "11:00 AM", "endTime": "00:00 AM"},
+            "wed": { "startTime": "11:00 AM", "endTime": "00:00 AM"},
+            "thu": { "startTime": "11:00 AM", "endTime": "00:00 AM"},
+            "fri": { "startTime": "11:00 AM", "endTime": "00:00 AM"},
+            "sat": { "startTime": "11:00 AM", "endTime": "00:00 AM"},
+            "sun": { "startTime": "11:00 AM", "endTime": "00:00 AM"}
+        },
+        "isClosed": false
+    },
+    {
+        "name": "Far East Cafe",
+        "day": {
+            "mon": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "tue": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "wed": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "thu": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "fri": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "sat": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "sun": { "startTime": "11:30 AM", "endTime": "22:00 PM"}
+        },
+        "isClosed": false
+    },
+    {
+        "name": "Parallel 37",
+        "day": {
+            "mon": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "tue": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "wed": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "thu": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "fri": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "sat": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "sun": { "startTime": "11:30 AM", "endTime": "22:00 PM"}
+        },
+        "isClosed": false
+    },
+    {
+        "name": "Bai Thong Thai Cuisine",
+        "day": {
+            "mon": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "tue": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "wed": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "thu": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "fri": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "sat": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "sun": { "startTime": "11:00 AM", "endTime": "22:00 PM"}
+        },
+        "isClosed": false
+    },
+    {
+        "name": "Alhamra",
+        "day": {
+            "mon": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "tue": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "wed": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "thu": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "fri": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "sat": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "sun": { "startTime": "11:00 AM", "endTime": "23:00 PM"}
+        },
+        "isClosed": false
+    },
+    {
+        "name": "A-1 Cafe Restaurant",
+        "day": {
+            "mon": { "startTime": "11:00 AM", "endTime": "22:00 PM"}
+            ,"tue": { "startTime": "11:30 AM", "endTime": "21:00 PM"}
+            ,
+            "wed": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "thu": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "fri": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "sat": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "sun": { "startTime": "11:00 AM", "endTime": "22:00 PM"}
+        },
+        "isClosed": false
+    },
+    {
+        "name": "Nick's Lighthouse",
+        "day": {
+            "mon": { "startTime": "11:00 AM", "endTime": "22:30 PM"},
+            "tue": { "startTime": "11:00 AM", "endTime": "22:30 PM"},
+            "wed": { "startTime": "11:00 AM", "endTime": "22:30 PM"},
+            "thu": { "startTime": "11:00 AM", "endTime": "22:30 PM"},
+            "fri": { "startTime": "11:00 AM", "endTime": "22:30 PM"},
+            "sat": { "startTime": "11:00 AM", "endTime": "22:30 PM"},
+            "sun": { "startTime": "11:00 AM", "endTime": "22:30 PM"}
+        },
+        "isClosed": false
+    },
+    {
+        "name": "Paragon Restaurant & Bar",
+        "day": {
+            "mon": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "tue": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "wed": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "thu": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "fri": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "sat": { "startTime": "17:30 PM", "endTime": "22:00 PM"}
+            ,"sun": { "startTime": "11:30 AM", "endTime": "21:00 PM"}
+        },
+        "isClosed": false
+    },
+    {
+        "name": "Chili Lemon Garlic",
+        "day": {
+            "mon": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "tue": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "wed": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "thu": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "fri": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
+            "sat": { "startTime": "17:00 PM", "endTime": "22:00 PM"},
+            "sun": { "startTime": "17:00 PM", "endTime": "22:00 PM"}
+        },
+        "isClosed": false
+    },
+    {
+        "name": "Bow Hon Restaurant",
+        "day": {
+            "mon": { "startTime": "11:00 AM", "endTime": "22:30 PM"},
+            "tue": { "startTime": "11:00 AM", "endTime": "22:30 PM"},
+            "wed": { "startTime": "11:00 AM", "endTime": "22:30 PM"},
+            "thu": { "startTime": "11:00 AM", "endTime": "22:30 PM"},
+            "fri": { "startTime": "11:00 AM", "endTime": "22:30 PM"},
+            "sat": { "startTime": "11:00 AM", "endTime": "22:30 PM"},
+            "sun": { "startTime": "11:00 AM", "endTime": "22:30 PM"}
+        },
+        "isClosed": false
+    },
+    {
+        "name": "San Dong House",
+        "day": {
+            "mon": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "tue": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "wed": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "thu": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "fri": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "sat": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "sun": { "startTime": "11:00 AM", "endTime": "23:00 PM"}
+        },
+        "isClosed": false
+    },
+    {
+        "name": "Thai Stick Restaurant",
+        "day": {
+            "mon": { "startTime": "11:00 AM", "endTime": "01:00 AM"},
+            "tue": { "startTime": "11:00 AM", "endTime": "01:00 AM"},
+            "wed": { "startTime": "11:00 AM", "endTime": "01:00 AM"},
+            "thu": { "startTime": "11:00 AM", "endTime": "01:00 AM"},
+            "fri": { "startTime": "11:00 AM", "endTime": "01:00 AM"},
+            "sat": { "startTime": "11:00 AM", "endTime": "01:00 AM"},
+            "sun": { "startTime": "11:00 AM", "endTime": "01:00 AM"}
+        },
+        "isClosed": false
+    },
+    {
+        "name": "Cesario's",
+        "day": {
+            "mon": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "tue": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "wed": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "thu": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "fri": { "startTime": "11:30 AM", "endTime": "22:30 PM"},
+            "sat": { "startTime": "11:30 AM", "endTime": "22:30 PM"},
+            "sun": { "startTime": "11:30 AM", "endTime": "22:00 PM"}
+        },
+        "isClosed": false
+    },
+    {
+        "name": "Colombini Italian Cafe Bistro",
+        "day": {
+            "mon": { "startTime": "12:00 PM", "endTime": "22:00 PM"},
+            "tue": { "startTime": "12:00 PM", "endTime": "22:00 PM"},
+            "wed": { "startTime": "12:00 PM", "endTime": "22:00 PM"},
+            "thu": { "startTime": "12:00 PM", "endTime": "22:00 PM"},
+            "fri": { "startTime": "12:00 PM", "endTime": "22:00 PM"},
+            "sat": { "startTime": "17:00 PM", "endTime": "22:00 PM"},
+            "sun": { "startTime": "17:00 PM", "endTime": "22:00 PM"}
+        },
+        "isClosed": false
+    },
+    {
+        "name": "Sabella & La Torre",
+        "day": {
+            "mon": { "startTime": "10:00 AM", "endTime": "22:30 PM"},
+            "tue": { "startTime": "10:00 AM", "endTime": "22:30 PM"},
+            "wed": { "startTime": "10:00 AM", "endTime": "22:30 PM"},
+            "thu": { "startTime": "10:00 AM", "endTime": "22:30 PM"},
+            "fri": { "startTime": "10:00 AM", "endTime": "00:30 AM"},
+            "sat": { "startTime": "10:00 AM", "endTime": "00:30 AM"},
+            "sun": { "startTime": "10:00 AM", "endTime": "22:30 PM"}
+        },
+        "isClosed": false
+    },
+    {
+        "name": "Soluna Cafe and Lounge",
+        "day": {
+            "mon": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "tue": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "wed": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "thu": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "fri": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
+            "sat": { "startTime": "17:00 PM", "endTime": "22:00 PM"}
+            ,"sun": { "startTime": "11:30 AM", "endTime": "21:00 PM"}
+        },
+        "isClosed": false
+    },
+    {
+        "name": "Tong Palace",
+        "day": {
+            "mon": { "startTime": "09:00 AM", "endTime": "21:30 PM"},
+            "tue": { "startTime": "09:00 AM", "endTime": "21:30 PM"},
+            "wed": { "startTime": "09:00 AM", "endTime": "21:30 PM"},
+            "thu": { "startTime": "09:00 AM", "endTime": "21:30 PM"},
+            "fri": { "startTime": "09:00 AM", "endTime": "21:30 PM"},
+            "sat": { "startTime": "09:00 AM", "endTime": "22:00 PM"},
+            "sun": { "startTime": "09:00 AM", "endTime": "22:00 PM"}
+        },
+        "isClosed": false
+    },
+    {
+        "name": "India Garden Restaurant",
+        "day": {
+            "mon": { "startTime": "10:00 AM", "endTime": "23:00 PM"},
+            "tue": { "startTime": "10:00 AM", "endTime": "23:00 PM"},
+            "wed": { "startTime": "10:00 AM", "endTime": "23:00 PM"},
+            "thu": { "startTime": "10:00 AM", "endTime": "23:00 PM"},
+            "fri": { "startTime": "10:00 AM", "endTime": "23:00 PM"},
+            "sat": { "startTime": "10:00 AM", "endTime": "23:00 PM"},
+            "sun": { "startTime": "10:00 AM", "endTime": "23:00 PM"}
+        },
+        "isClosed": false
+    },
+    {
+        "name": "Sapporo-Ya Japanese Restaurant",
+        "day": {
+            "mon": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "tue": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "wed": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "thu": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "fri": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "sat": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "sun": { "startTime": "11:00 AM", "endTime": "22:30 PM"}
+        },
+        "isClosed": false
+    },
+    {
+        "name": "Santorini's Mediterranean Cuisine",
+        "day": {
+            "mon": { "startTime": "08:00 AM", "endTime": "22:30 PM"},
+            "tue": { "startTime": "08:00 AM", "endTime": "22:30 PM"},
+            "wed": { "startTime": "08:00 AM", "endTime": "22:30 PM"},
+            "thu": { "startTime": "08:00 AM", "endTime": "22:30 PM"},
+            "fri": { "startTime": "08:00 AM", "endTime": "22:30 PM"},
+            "sat": { "startTime": "08:00 AM", "endTime": "22:30 PM"},
+            "sun": { "startTime": "08:00 AM", "endTime": "22:30 PM"}
+        },
+        "isClosed": false
+    },
+    {
+        "name": "Kyoto Sushi",
+        "day": {
+            "mon": { "startTime": "11:00 AM", "endTime": "22:30 PM"},
+            "tue": { "startTime": "11:00 AM", "endTime": "22:30 PM"},
+            "wed": { "startTime": "11:00 AM", "endTime": "22:30 PM"},
+            "thu": { "startTime": "11:00 AM", "endTime": "22:30 PM"},
+            "fri": { "startTime": "11:00 AM", "endTime": "23:00 PM"},
+            "sat": { "startTime": "11:30 AM", "endTime": "23:00 PM"},
+            "sun": { "startTime": "16:30 PM", "endTime": "22:30 PM"}
+        },
+        "isClosed": false
+    },
+    {
+        "name": "Marrakech Moroccan Restaurant",
+        "day": {
+            "mon": { "startTime": "17:30 PM", "endTime": "02:00 AM"},
+            "tue": { "startTime": "17:30 PM", "endTime": "02:00 AM"},
+            "wed": { "startTime": "17:30 PM", "endTime": "02:00 AM"},
+            "thu": { "startTime": "17:30 PM", "endTime": "02:00 AM"},
+            "fri": { "startTime": "17:30 PM", "endTime": "02:00 AM"},
+            "sat": { "startTime": "17:30 PM", "endTime": "02:00 AM"},
+            "sun": { "startTime": "17:30 PM", "endTime": "02:00 AM"}
+        },
+        "isClosed": false
     }
 ]
