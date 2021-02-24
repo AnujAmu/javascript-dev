@@ -156,7 +156,7 @@
             "thu": { "startTime": "11:00 AM", "endTime": "21:00 PM"},
             "fri": { "startTime": "11:00 AM", "endTime": "21:00 PM"},
             "sat": { "startTime": "17:00 PM", "endTime": "21:00 PM"}
-            ,"sun": { "startTime": "11:00 AM", "endTime": "21:00 PM"}
+            ,"sun": { "startTime": "", "endTime": ""}
         },
         "isClosed": false
     },    {
@@ -414,7 +414,7 @@
         "name": "A-1 Cafe Restaurant",
         "day": {
             "mon": { "startTime": "11:00 AM", "endTime": "22:00 PM"}
-            ,"tue": { "startTime": "11:30 AM", "endTime": "21:00 PM"}
+            ,"tue": { "startTime": "", "endTime": ""}
             ,
             "wed": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
             "thu": { "startTime": "11:00 AM", "endTime": "22:00 PM"},
@@ -446,7 +446,7 @@
             "thu": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
             "fri": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
             "sat": { "startTime": "17:30 PM", "endTime": "22:00 PM"}
-            ,"sun": { "startTime": "11:30 AM", "endTime": "21:00 PM"}
+            ,"sun": { "startTime": "", "endTime": ""}
         },
         "isClosed": false
     },
@@ -550,7 +550,7 @@
             "thu": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
             "fri": { "startTime": "11:30 AM", "endTime": "22:00 PM"},
             "sat": { "startTime": "17:00 PM", "endTime": "22:00 PM"}
-            ,"sun": { "startTime": "11:30 AM", "endTime": "21:00 PM"}
+            ,"sun": { "startTime": "", "endTime": ""}
         },
         "isClosed": false
     },

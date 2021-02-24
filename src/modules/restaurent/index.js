@@ -13,10 +13,10 @@ class Restaurent extends BaseComponent {
         }
     }
 
-    componentDidMount() {
+    async componentDidMount() {
         let date=new Date();
         console.log(date)
-        this.getRestaurentData();
+        await this.getRestaurentData();
         this.parseData(this.state.startTime);
     }
 
@@ -59,8 +59,8 @@ class Restaurent extends BaseComponent {
         })
         this.setState({restaurentArray: this.state.itemArray})
     }
-    getRestaurentData=()=>{
-        fetch("https://run.mocky.io/v3/b0f3e975-b815-4e88-8a6a-84af59fe32eb", {method: "GET"})
+    getRestaurentData=async()=>{
+        await fetch("https://run.mocky.io/v3/b0f3e975-b815-4e88-8a6a-84af59fe32eb", {method: "GET"})
         .then((response)=>{
             return response.json()
         })

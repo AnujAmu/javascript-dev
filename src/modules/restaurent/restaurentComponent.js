@@ -26,8 +26,8 @@ export default function GroupList(props) {
                     <Grid>
                         {/* className={"sign-in-btn  w-100-per m-t-7per border-0 background-color-gradient " +
                             (props.state.showLoader ? "opacity-3 cursor-not-allowed" : "cursor-pointer")} */}
-                        <Paper variant="outlined" className={"paper-box " + ((cell.isClosed) === "closed" ? " bg-pink" : "bg-blue")}>
-                            <div className={"status-ribbon " + ((cell.isClosed) === "closed" ? " bg-closed" : "bg-open")}>{cell.isClosed}</div>
+                        <Paper variant="outlined" className={"paper-box " + ((cell.isClosed) === "Closed" ? " bg-pink" : "bg-blue")}>
+                            <div className={"status-ribbon " + ((cell.isClosed) === "Closed" ? " bg-closed" : "bg-open")}>{cell.isClosed}</div>
 
                             <h5 style={{ textAlign: 'center', paddingTop: '14px' }}>{cell['Kushi Tsuru']}</h5>
 
