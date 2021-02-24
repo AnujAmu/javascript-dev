@@ -8,7 +8,9 @@ import moment from 'moment'
 export default function GroupList(props) {
     return (
         <div className="m-l-50 m-t-30">
-            <h5 className="m-l-50">Restaurent List</h5>
+            <h4 className="m-l-50">Restaurents List</h4>
+            <div className="m-l-50">Choose a date and time</div>
+
             <DatePicker
                 className="m-l-50"
                 selected={props.state.startTime}
@@ -22,7 +24,7 @@ export default function GroupList(props) {
             <input
                 className="h-32 w-225 m-l-95 fs-14 outline-none input-border"
                 onChange={(event) => props.onSearchEvent(event)}
-                placeholder="Search for a restaurent"
+                placeholder="Search for a Restaurent"
             />
             <Grid container spacing={2}>
                 {props.state.restaurentArray && props.state.restaurentArray.length ? props.state.restaurentArray.map(cell =>
